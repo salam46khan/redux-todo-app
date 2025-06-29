@@ -1,11 +1,13 @@
+import { Outlet } from "react-router";
+import Navbar from "./components/layout/Navbar";
 
-import { Button } from './components/ui/button';
 
 const App = () => {
   return (
-    <div>
-      <Button>click me</Button>
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+    </>
   );
 };
 
