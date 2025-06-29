@@ -13,7 +13,7 @@ const Router = createBrowserRouter([
                 Component: Task
             },
             {
-                path: '/tast',
+                path: '/task',
                 Component: Task
             },
             {
