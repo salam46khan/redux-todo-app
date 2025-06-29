@@ -1,3 +1,4 @@
+import TaskCard from "@/components/module/task/TaskCard";
 import { selectFilter, selectTask } from "@/redux/feature/task/taskSlice";
 import { useAppSelector } from "@/redux/hooks";
 
@@ -8,8 +9,10 @@ const Task = () => {
     console.log(filter);
     
     return (
-        <div>
-            <p>this is task page</p>
+        <div className="container mx-auto py-10">
+            {
+                task.map(task => <TaskCard task={task}/>)
+            }
         </div>
     );
 };

@@ -16,6 +16,14 @@ const initialState: InitialState = {
             dueDate: "2025-30",
             isCompleted: false,
             priority: "high"
+        },
+        {
+            id: "baldd",
+            title: "learn mongoose",
+            description: "akjfasd",
+            dueDate: "2025-30",
+            isCompleted: false,
+            priority: "low"
         }
     ],
     filter: "all"
